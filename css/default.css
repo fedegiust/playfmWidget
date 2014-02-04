@@ -1,0 +1,43 @@
+	body{
+		font-family: Helvetica, Arial, serif;
+		color: #6d6d6d;
+		background-image: url('css/images/brushed.png');
+	}
+
+	h3{
+		letter-spacing: -1px;
+	}
+
+	pre {
+		padding: 20px;
+		background: #303030;
+		color: #f2f2f2;
+		text-shadow: none;
+		overflow: auto;
+	}
+
+	code, pre {
+		font-family: Monaco, Terminal;
+		margin-bottom: 30px;
+		font-size: 14px;
+		text-align: left;
+	}
+	#content{
+		display: block;
+		width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+
+	}
+	hr{
+		height: 1px;
+		line-height: 1px;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		-moz-box-shadow: rgba(200,200,200,0.7) 0 4px 0px -1px;
+		-webkit-box-shadow: rgba(200, 200, 200, 0.7) 0 4px 0px -1px;
+		box-shadow: rgba(200, 200, 200, 0.7) 0 4px 0px -1px;
+	}
