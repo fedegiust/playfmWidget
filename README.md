@@ -7,7 +7,8 @@ Requirements
 ============
 - jQuery
 - play.fm API Key (http://http://www.play.fm/api/)
-- 
+
+
 How to use it?
 ==============
 
