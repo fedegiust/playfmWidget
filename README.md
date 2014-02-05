@@ -6,7 +6,8 @@ It's a simple jQuery plugin that helps you add a play.fm widget into your websit
 Requirements
 ============
 - jQuery
-
+- play.fm API Key (http://http://www.play.fm/api/)
+- 
 How to use it?
 ==============
 
