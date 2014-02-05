@@ -12,7 +12,7 @@
 
         playfmWidget: function(options) {
             
-            var apiKey = 'c0c8d0f3a1406dc996bf:399d9aed30';
+            var apiKey = 'c0c8d0f3a1406dc996bf:399d9aed30'; //Replace this with your API Key
             var settings = $.extend({
                 // These are the defaults.
                 artistName : "",
