@@ -1,20 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="">
-  <script type="text/javascript" src="js/jquery.1.10.2.min.js"></script>
+	<title>Play.fm Widget jQuery Plugin</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/default.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/ui-lightness/jquery-ui-1.10.3.custom.min.css" />
+	<script type="text/javascript" src="js/jquery.1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
 	<script type="text/javascript" src="js/playfmwidget.js"></script>
 </head>
 <body>
+<div id="content">
+	<h2>play.fm Widget jQuery Plugin</h2>
+	<hr>
+	<h3>Example - With default options</h3>
+	<pre>
+		<code>
+			$('#playfmWidget').playfmWidget({artistName: 'Richie Hawtin'});
+		</code>		
+	</pre>
+	<br />
+	<div id="playfmWidget"></div>
+	<br />
 
-<div id="playfmWidget"></div>
+	Other options available
+	<pre>
+		<code>
+			$('#playfmWidget').playfmWidget({artistName: 'Richie Hawtin', showPic: true | false, orderBy: "chrono" | "total" | "popindex"});
+		</code>		
+	</pre>
 
+</div>
 
 </body>
 
 <script type="text/javascript">
 
+<<<<<<< HEAD
 	$('#playfmWidget').playfmWidget({type: 'artist', searchItem: 'Federico Giust'});
+=======
+	$('#playfmWidget').playfmWidget({artistName: 'Federico Giust'});
+>>>>>>> be91a1995ead8890562e5dbd39e89990cfb0f9d1
 
 </script>
 </html>
