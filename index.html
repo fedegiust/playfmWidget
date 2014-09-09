@@ -20,23 +20,25 @@
 		</code>		
 	</pre>
 	<br />
-	<div id="playfmWidget"></div>
+	<div id="playfmWidget1"></div>
 	<br />
 
 	Other options available
 	<pre>
 		<code>
-			$('#playfmWidget').playfmWidget({type: 'artist', searchItem: 'Richie Hawtin', showPic: true | false, orderBy: "chrono" | "total" | "popindex"});
+			$('#playfmWidget').playfmWidget({type: 'label', searchItem: 'Moon Harbour Recordings', showPic: true | false, orderBy: "chrono" | "total" | "popindex"});
 		</code>		
 	</pre>
+	<div id="playfmWidget2"></div>
+
 
 </div>
-
 </body>
 
 <script type="text/javascript">
 
-	$('#playfmWidget').playfmWidget({type: 'artist', searchItem: 'Federico Giust'});
+	$('#playfmWidget1').playfmWidget({type: 'artist', searchItem: 'Richie Hawtin'});
+	$('#playfmWidget2').playfmWidget({type: 'label', searchItem: 'Moon Harbour Recordings', showPic: false });
 
 </script>
 </html>
