@@ -30,7 +30,7 @@ After the body tag and all includes add this code:
 ```
 <script type="text/javascript">
 
-	$('#playfmWidget').playfmWidget({artistName: 'Federico Giust'});
+	$('#playfmWidget').playfmWidget({type: 'artist', searchItem: 'Federico Giust'});
 
 </script>
 ```
@@ -38,9 +38,13 @@ Options available:
 
 |Option       |Default Value | Description                                                        |
 |-------------|--------------|--------------------------------------------------------------------|
-|artistName   |none          |Name of the artist you want to create the widget for                |
-|showPic      |true          |Show the mix picture if there is any available (true/false)         |
-|sortBy       |chrono        |How would you like the results to be sorted (chrono/total/popindex) |
+|type         |artist        |type of search (artist,club,festival,label,profile,event, style,    |
+|             |              |radioshow,latest,recording)                                         |
+|searchItem   |none          |Value of the search criteria to create the widget for               |
+|flexible     |true          |If you want the widget to be flexible in size                       |
+|widthPixels  |              |Width in pixels for the widget (if used flexible should be false)   |
+|picture      |true          |Show the mix picture if there is any available (true/false)         |
+|sortedBy     |chrono        |How would you like the results to be sorted (chrono/total/popindex) |
 
 This is distributed under WTFPL lincense.
 
